@@ -1,0 +1,138 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Odie",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17058692543959004084
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16003174675389012848
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8827103232311651712,
+                "Child Entity Order": [
+                    "Entity_[371368062909]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9879079158344637934
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 5830412306456435838
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7281249167890938799
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7344029170431504002
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11219675946839616858
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16647217287701770929
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15884412899485273442,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[371368062909]": {
+            "Id": "Entity_[371368062909]",
+            "Name": "Odie",
+            "Components": {
+                "EditorActorComponent": {
+                    "$type": "EditorActorComponent",
+                    "Id": 14063065797494906923,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{73D4A844-BA55-52CA-B5F3-719FBEDFFB1A}",
+                            "subId": 4203765787
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/odie/odie.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16160086411698217381
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5885957027212045549
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10270459520866798981
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7249929580286961699,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 18163600711337816563
+                        },
+                        {
+                            "ComponentId": 14063065797494906923,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4547048820923557350,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3172318913010362120
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9409267750857158383
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3023273736951273085
+                },
+                "EditorSimpleMotionComponent": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 4547048820923557350,
+                    "PreviewInEditor": true,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{C160536B-33BF-5562-99D1-C79ABBB4AE88}",
+                                "subId": 150734509
+                            },
+                            "assetHint": "assets/odie/odie_greeting.motion"
+                        },
+                        "Loop": true
+                    }
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15949216976962210698
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18163600711337816563,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}
